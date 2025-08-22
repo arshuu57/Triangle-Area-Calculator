@@ -17,25 +17,7 @@ An interactive React app to **calculate the area of a triangle** by adjusting it
 ---
 
 ## 🖼 Demo
-Netlify Live Demo: (Link)(https://triangleareacalculator57.netlify.app/)
-
----
-
-## 📂 Project Structure
-
-Triangle-Area-Calculator/ 
-├── public/ 
-├── src/ 
-│ ├── components/ 
-│ │ ├── TrianglePlayground.js 
-│ │ ├── ControlsPanel.js 
-│ │ ├── FormulaView.js 
-│ │ ├── Challenges.js 
-│ │ └── Quiz.js 
-│ ├── App.js 
-│ ├── App.css 
-│ └── index.js 
-└── package.json 
+Netlify Live Demo:(https://triangleareacalculator57.netlify.app/)
 
 
 🌍 Deployment
