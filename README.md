@@ -1,12 +1,78 @@
-# React + Vite
+📐 Triangle Area Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React app to calculate the area of a triangle by adjusting its vertices dynamically. This app is designed for learning geometry in a fun and visual way.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Interactive Canvas – Drag triangle vertices to see real-time area updates
+✅ Dynamic Area Calculation – Uses the standard formula:
+Area = ½ × base × height
+✅ Control Panel – Adjust points using sliders for precision
+✅ Challenges Mode – Fun tasks like "Make the area exactly 25 units"
+✅ Quick Quiz – Test your knowledge with multiple-choice questions
+✅ Reset Button – Reset the triangle to its default position
+✅ Clean UI with Animations – Smooth user experience
 
-## Expanding the ESLint configuration
+🖼 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(Add Netlify or GitHub Pages link after deployment)
+Example: Live Demo
+
+📂 Project Structure
+Triangle-Area-Calculator/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TrianglePlayground.js
+│   │   ├── ControlsPanel.js
+│   │   ├── FormulaView.js
+│   │   ├── Challenges.js
+│   │   └── Quiz.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── package.json
+
+🚀 Getting Started
+1. Clone the repo
+git clone https://github.com/your-username/Triangle-Area-Calculator.git
+cd Triangle-Area-Calculator
+
+2. Install dependencies
+npm install
+
+3. Run locally
+npm start
+
+
+The app will run at http://localhost:3000
+
+🌍 Deployment
+
+You can deploy it easily on:
+
+Netlify (Recommended)
+
+GitHub Pages
+
+Vercel
+
+📖 How It Works
+
+Drag the vertices of the triangle or adjust them using sliders.
+
+Watch the area update in real-time.
+
+Try completing challenges or take the quiz to test your understanding.
+
+✅ Tech Stack
+
+React.js – Frontend framework
+
+CSS – Custom styling & animations
+
+Framer Motion – For smooth animations
+
+📜 License
+
+MIT License © 2025 Your Name
