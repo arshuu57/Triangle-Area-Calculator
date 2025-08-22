@@ -17,35 +17,73 @@ An interactive React app to **calculate the area of a triangle** by adjusting it
 ---
 
 ## 🖼 Demo
-Netlify Live Demo:(https://triangleareacalculator57.netlify.app/)
+*(Add Netlify or GitHub Pages link after deployment)*  
+Example: [Live Demo](https://your-netlify-link.netlify.app)
 
+---
 
-🌍 Deployment
+## 📂 Project Structure
+```
+Triangle-Area-Calculator/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TrianglePlayground.js
+│   │   ├── ControlsPanel.js
+│   │   ├── FormulaView.js
+│   │   ├── Challenges.js
+│   │   └── Quiz.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── package.json
+```
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/Triangle-Area-Calculator.git
+cd Triangle-Area-Calculator
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run locally
+```bash
+npm start
+```
+
+The app will run at **http://localhost:3000**
+
+---
+
+## 🌍 Deployment
 You can deploy it easily on:
+- **Netlify** (Recommended)
+- GitHub Pages
+- Vercel
 
-Netlify (Recommended)
+---
 
-GitHub Pages
+## 📖 How It Works
+1. Drag the vertices of the triangle or adjust them using sliders.
+2. Watch the **area update in real-time**.
+3. Try completing **challenges** or take the **quiz** to test your understanding.
 
-Vercel
+---
 
-📖 How It Works
+## ✅ Tech Stack
+- **React.js** – Frontend framework
+- **CSS** – Custom styling & animations
+- **Framer Motion** – For smooth animations
 
-Drag the vertices of the triangle or adjust them using sliders.
+---
 
-Watch the area update in real-time.
-
-Try completing challenges or take the quiz to test your understanding.
-
-✅ Tech Stack
-
-React.js – Frontend framework
-
-CSS – Custom styling & animations
-
-Framer Motion – For smooth animations
-
-📜 License
-
-MIT License © 2025 Arshad khan
+## 📜 License
+MIT License © 2025 Your Name
