@@ -1,0 +1,77 @@
+.triangle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.triangle-svg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  cursor: grab;
+}
+
+.triangle-grid-line {
+  stroke: #e5e7eb;
+  stroke-width: 1;
+}
+
+.triangle-polygon {
+  fill: rgba(96, 165, 250, 0.2);
+  stroke: #2563eb;
+  stroke-width: 3;
+  transition: all 0.3s ease;
+}
+
+.triangle-polygon:hover {
+  fill: rgba(96, 165, 250, 0.35);
+  stroke-width: 4;
+}
+
+.triangle-point {
+  fill: #2563eb;
+  stroke: #fff;
+  stroke-width: 2;
+  cursor: pointer;
+  transition: transform 0.2s ease, fill 0.3s ease;
+}
+
+.triangle-point:hover {
+  fill: #1d4ed8;
+  transform: scale(1.3);
+}
+
+.drag-hint {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .triangle-svg {
+    max-width: 90%;
+  }
+}

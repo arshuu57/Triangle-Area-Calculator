@@ -1,0 +1,124 @@
+.challenges-container {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-top: 1.5rem;
+}
+
+.challenges-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.challenge-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.challenge-item {
+  background: #f9fafb;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-left: 5px solid #2563eb;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.challenge-item.completed {
+  background: #e0f2fe;
+}
+
+.challenge-item:hover {
+  transform: translateY(-2px);
+  background: #eef2ff;
+}
+
+.challenge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.challenge-question {
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.challenge-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hint-btn,
+.check-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hint-btn {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.hint-btn:hover {
+  background: #e5e7eb;
+  transform: scale(1.05);
+}
+
+.check-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.check-btn:hover {
+  background: #1e40af;
+  transform: scale(1.05);
+}
+
+.hint-text {
+  margin-top: 0.5rem;
+  color: #1e3a8a;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.completed-text {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #065f46;
+}
+
+.success-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #10b981;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .challenge-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .challenge-actions {
+    margin-top: 0.5rem;
+  }
+}
