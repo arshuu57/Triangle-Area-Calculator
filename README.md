@@ -1,51 +1,43 @@
-📐 Triangle Area Calculator
+# 📐 Triangle Area Calculator
 
-An interactive React app to calculate the area of a triangle by adjusting its vertices dynamically. This app is designed for learning geometry in a fun and visual way.
+An interactive React app to **calculate the area of a triangle** by adjusting its vertices dynamically. This app is designed for learning geometry in a fun and visual way.
 
-✨ Features
+---
 
-✅ Interactive Canvas – Drag triangle vertices to see real-time area updates
-✅ Dynamic Area Calculation – Uses the standard formula:
-Area = ½ × base × height
-✅ Control Panel – Adjust points using sliders for precision
-✅ Challenges Mode – Fun tasks like "Make the area exactly 25 units"
-✅ Quick Quiz – Test your knowledge with multiple-choice questions
-✅ Reset Button – Reset the triangle to its default position
-✅ Clean UI with Animations – Smooth user experience
+## ✨ Features
+✅ **Interactive Canvas** – Drag triangle vertices to see real-time area updates  
+✅ **Dynamic Area Calculation** – Uses the standard formula:  
+`Area = ½ × base × height`  
+✅ **Control Panel** – Adjust points using sliders for precision  
+✅ **Challenges Mode** – Fun tasks like "Make the area exactly 25 units"  
+✅ **Quick Quiz** – Test your knowledge with multiple-choice questions  
+✅ **Reset Button** – Reset the triangle to its default position  
+✅ **Clean UI with Animations** – Smooth user experience  
 
-🖼 Demo
+---
 
-(Add Netlify or GitHub Pages link after deployment)
-Example: Live Demo
+## 🖼 Demo
+*(Add Netlify or GitHub Pages link after deployment)*  
+Example: [Live Demo](https://your-netlify-link.netlify.app)
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 Triangle-Area-Calculator/
 ├── public/
 ├── src/
-│   ├── components/
-│   │   ├── TrianglePlayground.js
-│   │   ├── ControlsPanel.js
-│   │   ├── FormulaView.js
-│   │   ├── Challenges.js
-│   │   └── Quiz.js
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
+│ ├── components/
+│ │ ├── TrianglePlayground.js
+│ │ ├── ControlsPanel.js
+│ │ ├── FormulaView.js
+│ │ ├── Challenges.js
+│ │ └── Quiz.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
 └── package.json
 
-🚀 Getting Started
-1. Clone the repo
-git clone https://github.com/your-username/Triangle-Area-Calculator.git
-cd Triangle-Area-Calculator
-
-2. Install dependencies
-npm install
-
-3. Run locally
-npm start
-
-
-The app will run at http://localhost:3000
 
 🌍 Deployment
 
@@ -75,4 +67,4 @@ Framer Motion – For smooth animations
 
 📜 License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Arshad khan
